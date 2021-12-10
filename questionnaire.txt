@@ -1,0 +1,21 @@
+
+Question: yo
+1)1
+2)2
+3)3
+~
+|0,0.1
+~
+Question: a
+1)1
+2)2
+3)3
+^
+|0,1.1
+^
+Question: ef
+1)Vrai
+2)Faux
+*
+|1,0
+*

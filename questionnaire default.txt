@@ -1,0 +1,74 @@
+A) Un parametre formel d'une action parametree est caracterise par :
+1) Mode de transmission
+2) Nom du parametre
+3) Valeur du parametre
+^
+|1,1.1
+^
+B) Une action parametree a obligatoirement au moins un parametre formel :
+1) Vrai
+2) Faux
+*
+|0,1
+*
+C) Une action parametree peut changer la valeur d'un parametre effectif si son mode de transmission est :
+1) E ou ES
+2) S ou ES
+3) S uniquement 
+~
+|0,1.0
+~
+D) Une action parametree peut en appeler une autre : 
+1) Vrai
+2) Faux
+*
+|1,0
+*
+E) Une action parametree peut faire un appel a elle meme :
+1) Vrai
+2) Faux
+*
+|1,0
+*
+F) L'utilisation des variables globales est :
+1) conseille pour diminuer le nombre de parametres
+2) conseille pour diminuer la taille du programme
+3) deconseille car cela nuit a la lisibilite du code
+~
+|0,0.1
+~
+G) Le type enregistrement est une structure de donnee composee de variables :
+1) homogenes appelees champs
+2) necessairement non homogenes
+3) pouvant etre non homogenes
+^
+|1,-1.1 
+^ 
+H) Un enregistrement peut etre manipule comme une unite lorsqu'il est :
+1) envoye comme paramètre d une action parametree
+2) lu par l'instruction de lecture lire() ou affiche par une instruction d ecriture ecrire()
+3) utilise comme l value dans une instruction d'affectation
+^
+|1,-1,1
+^
+I) Pour traduire en C le mode de transmission entree/sortie (ES) du langage algorithmique, on fait :
+1) une transmission par valeur
+2) une transmission par adresse
+3) aucune de ces reponses
+~
+|0,1.0
+~
+J) Qui est ce qui indique en C qu une action parametree est une procedure et non pas une fonction?:
+1) le nom de l action parametree qui est un verbe a l'infinitif
+2) le type de retour qui est void
+3) le mot cle function
+~
+|0,1.0
+~
+K) En C, pour indiquer la valeur retournee par une fonction, on utilise
+1) la variable predefinie result
+2) le nom de la fonction utilisee comme variable
+3) le mot cle return
+~
+|0,0.1
+~
